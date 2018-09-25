@@ -7,7 +7,8 @@
     "test": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
     "e2e": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
     "headless": "node node_modules/webdriverio/bin/wdio wdio.conf.headless.js",
-    "random": "node node_modules/webdriverio/bin/wdio wdio.conf.random.js"
+    "random": "node node_modules/webdriverio/bin/wdio wdio.conf.random.js",
+    "bdt": "node node_modules/webdriverio/bin/wdio wdio.conf.bdt.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
   "devDependencies": {
     "wdio-jasmine-framework": "^0.3.2",
     "wdio-selenium-standalone-service": "0.0.9",
-    "wdio-spec-reporter": "^0.1.2"
+    "wdio-spec-reporter": "^0.1.2",
+    "chai": "^4.1.2",
+    "wdio-cucumber-framework": "^1.0.2"
   }
 }
