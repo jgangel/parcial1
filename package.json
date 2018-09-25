@@ -1,0 +1,30 @@
+{
+  "name": "parcial1",
+  "version": "1.0.0",
+  "description": "parcial 1 pruebas automaticas",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "e2e": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "headless": "node node_modules/webdriverio/bin/wdio wdio.conf.headless.js",
+    "random": "node node_modules/webdriverio/bin/wdio wdio.conf.random.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgangel/parcial1.git"
+  },
+  "author": "Jesus Angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgangel/parcial1/issues"
+  },
+  "homepage": "https://github.com/jgangel/parcial1#readme",
+  "dependencies": {
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2"
+  }
+}
